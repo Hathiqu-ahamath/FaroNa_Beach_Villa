@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --color-primary: #126685;
+  --color-primary-container: #71b5d8;
+  --color-secondary: #6b5c4c;
+  --color-secondary-container: #f4dfcb;
+  --color-tertiary: #605e5c;
+  --color-tertiary-container: #afaca9;
+  --color-surface: #f9f9f9;
+  --color-surface-bright: #f9f9f9;
+  --color-surface-dim: #dadada;
+  --color-surface-container: #eeeeee;
+  --color-surface-container-low: #f3f3f3;
+  --color-surface-container-high: #e8e8e8;
+  --color-surface-container-highest: #e2e2e2;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #1a1c1c;
+  --color-on-surface-variant: #41484d;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #00465e;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #716252;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #41403e;
+  --color-outline: #71787e;
+  --color-outline-variant: #c1c7ce;
+  --color-background: #f9f9f9;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-inverse-surface: #2f3131;
+  --color-inverse-on-surface: #f0f1f1;
+  --color-inverse-primary: #8bcff3;
+  --color-tertiary-fixed: #e5e2df;
+  --color-tertiary-fixed-dim: #c9c6c3;
+  --color-primary-fixed: #c1e8ff;
+  --color-primary-fixed-dim: #8bcff3;
+  --color-secondary-fixed: #f4dfcb;
+  --color-secondary-fixed-dim: #d7c3b0;
+  --color-on-tertiary-fixed: #1c1b1a;
+  --color-on-tertiary-fixed-variant: #484745;
+  --color-on-secondary-fixed: #241a0e;
+  --color-on-secondary-fixed-variant: #524436;
+  --color-on-primary-fixed: #001e2b;
+  --color-on-primary-fixed-variant: #004d66;
+
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-label: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer utilities {
+  .cubic-bezier-ebb {
+    transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-on-surface);
+  background-color: var(--color-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-headline {
+  font-family: var(--font-headline);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}

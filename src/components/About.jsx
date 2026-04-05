@@ -1,0 +1,106 @@
+import { motion } from 'framer-motion'
+
+export default function About() {
+  const facilities = [
+    { id: "breakfast", name: "Breakfast", icon: "restaurant" },
+    { id: "ac", name: "Air conditioning", icon: "ac_unit" },
+    { id: "shuttle", name: "Airport shuttle", icon: "flight" },
+    { id: "wifi", name: "Free WiFi", icon: "wifi" },
+    { id: "beachfront", name: "Beachfront", icon: "beach_access" },
+    { id: "family", name: "Family rooms", icon: "group" },
+    { id: "parking", name: "Free parking", icon: "local_parking" },
+  ]
+
+  return (
+    <section id="about" className="py-16 md:py-24 px-6 md:px-24 bg-surface">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="font-headline text-2xl md:text-5xl text-primary mb-4 md:mb-6">Welcome to Farona</h2>
+            <p className="font-body text-secondary text-sm md:text-base leading-relaxed mb-4">
+              Nestled along pristine coastline, Farona Beach Villa offers an unparalleled escape where luxury meets nature. Our meticulously designed villas provide the perfect sanctuary for those seeking tranquility and elegance.
+            </p>
+            <p className="font-body text-secondary text-sm md:text-base leading-relaxed mb-6">
+              With breathtaking ocean views, world-class amenities, and personalized service, we create unforgettable experiences for every guest. Whether you're looking for a romantic getaway or a family vacation, Farona is your home away from home.
+            </p>
+            <div className="flex items-center gap-4">
+              <div className="flex -space-x-2">
+                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary text-sm font-bold">5★</div>
+              </div>
+              <div>
+                <p className="text-sm font-bold text-primary">Rated Excellent</p>
+                <p className="text-xs text-secondary">by 500+ happy guests</p>
+              </div>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="relative"
+          >
+            <div className="grid grid-cols-2 gap-2">
+              <div className="space-y-2">
+                <img 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4MIERYMTy_8ZpqSPzh4fi6L5TiXX8Oo837Hm6m_6AiD7dW4ssDnMbaxZkXP0Th_4TVRUvOoV5cO7jUw2EZivr_CU5Zrps_wMPcucfnq3yPMpt4r9fZ60JMjHMzisWfYQDXk_oyZzb3YE5GiJ20J-NQcl-0WPfO1pl-c4o7BlGJBGPSEvi8sKyJIyTPhu1Gse-E6JuYXPqte1G6X_nU-hYaipAyZU2rMChs1HzoHQyl-6XOnF645f6LcdO-xqRR-EJvqLWNO9X7lo"
+                  alt="Pool"
+                  className="w-full h-32 md:h-48 object-cover rounded-lg"
+                />
+                <img 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2Ke6UmymhFQbL0PVWbg_80b5T03sgOPmPDUV1CqEdOsDQt09GDUHubabMMrdecTGENpf0IUWHaBHd7jtZ4nJOudNUi_WzJhLfx1GkOO9OQudCLkV8v0wrYnVH2tVIEd5PXvv0OLnq-qQv0OHVwTeR16GPtCbB9dZ_NNLwHc_yXb6YGBrzU-zkCizenSd0-dtp7v2rIbz5QgZZO-LAMvf3W9Toc7nbSN27_nt-HIx884rc8He2_LZ0DgOMO8kXJENmpXbyG7tnD9s"
+                  alt="Breakfast"
+                  className="w-full h-32 md:h-48 object-cover rounded-lg"
+                />
+              </div>
+              <div className="space-y-2 pt-4 md:pt-8">
+                <img 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4UMRjYDyNrbM_jk9Sw6fX0ArCNTkS0c1fucaQ0zx4Dq4F1IumzH8DxGkqnLh7n_m74ht6XDxlfz3jKLOWY-nZPGU035ITAy9fwTWSxpmtOf56VUAMbbDhbLlgtS6RorvNPT7H28F3Po8tI0Yzo_tVDnSCpR8KmnJeKRC2cFaEyTyvkLMqKtkp1s1uw7jtZSw1XuJ_0nHPrdwp5y1CU_eGNyAHGD8fHGC7a95vD5ofhrtQd1ovgrJv_J1QJBou5Kl8T2I4f4dMQCY"
+                  alt="Beach"
+                  className="w-full h-32 md:h-48 object-cover rounded-lg"
+                />
+                <img 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRtUc-AgYqq_8jXiyu94cff5DuzDP4MV5PCQWjhrwidMgxZhv6GViyeBWdqdw2-UYHqW10d3EjaNlU28Gg-A8puwoNXZxxP0nMDXEQcJTgDOa1-FBdTA4KvRZ_Y1mZtNYR40258c7RIJxXJGJMNqpIenbie7cBNzyOrHBmu3RVHd4C32hJxXLwC3ybXMoa_MVredVX0XmftWMEG2Mavdol832gedIfPUIzecR7l3Qh62TMgHQ63UQ5AVFzRE5DZetK6XWPUjSFEhE"
+                  alt="Yoga"
+                  className="w-full h-32 md:h-48 object-cover rounded-lg"
+                />
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="mt-16 md:mt-24">
+          <motion.h3 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-headline text-xl md:text-2xl text-primary mb-6 md:mb-8 text-center"
+          >
+            Property Amenities
+          </motion.h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-3 md:gap-4">
+            {facilities.map((item, index) => (
+              <motion.div
+                key={item.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-surface-container-lowest p-3 md:p-4 rounded-xl flex flex-col items-center gap-2 text-center hover:shadow-md transition-all duration-300"
+              >
+                <span className="material-symbols-outlined text-primary text-xl">{item.icon}</span>
+                <span className="text-xs md:text-sm text-secondary">{item.name}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
