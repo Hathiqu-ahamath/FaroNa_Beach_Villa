@@ -2,18 +2,29 @@
   <defs>
     <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#87CEEB"/>
-      <stop offset="100%" style="stop-color:#E0F7FA"/>
+      <stop offset="60%" style="stop-color:#FFECD2"/>
+      <stop offset="100%" style="stop-color:#FCB69F"/>
     </linearGradient>
     <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#FFD700"/>
-      <stop offset="100%" style="stop-color:#FFA500"/>
+      <stop offset="50%" style="stop-color:#FF8C00"/>
+      <stop offset="100%" style="stop-color:#FF4500"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0077B6"/>
+      <stop offset="100%" style="stop-color:#023E8A"/>
     </linearGradient>
   </defs>
-  <rect width="48" height="48" rx="8" fill="url(#sky)"/>
-  <circle cx="36" cy="12" r="6" fill="url(#sun)"/>
-  <path d="M6 38 L6 28 L14 20 L22 28 L22 38 Z" fill="#126685"/>
-  <path d="M14 20 L14 12 L22 20 Z" fill="#126685"/>
-  <path d="M24 38 L24 26 L34 16 L44 26 L44 38 Z" fill="#71b5d8"/>
-  <path d="M24 26 L24 16 L34 26 Z" fill="#71b5d8"/>
-  <path d="M2 38 Q12 32 24 38 Q36 44 48 38 L48 48 L2 48 Z" fill="#126685" opacity="0.7"/>
+  <circle cx="24" cy="24" r="24" fill="url(#sky)"/>
+  <circle cx="32" cy="14" r="5" fill="url(#sun)"/>
+  <ellipse cx="24" cy="48" rx="18" ry="8" fill="url(#sea)"/>
+  <path d="M12 34 L12 26 L18 20 L24 26 L24 34 Z" fill="#126685"/>
+  <path d="M18 20 L18 16 L24 22 L24 26 L18 20 Z" fill="#0E4D64"/>
+  <path d="M20 34 L20 28 L28 20 L36 28 L36 34 Z" fill="#126685"/>
+  <path d="M28 20 L28 14 L36 22 L36 28 L28 20 Z" fill="#0E4D64"/>
+  <circle cx="14" cy="26" r="1.5" fill="#FCB69F"/>
+  <circle cx="22" cy="28" r="1.5" fill="#FCB69F"/>
+  <circle cx="30" cy="26" r="1.5" fill="#FCB69F"/>
+  <path d="M10 44 Q14 40 18 44 Q22 48 26 44 Q30 40 34 44 Q38 48 42 44" stroke="#90E0EF" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M8 46 Q13 42 18 46 Q23 50 28 46 Q33 42 38 46 Q43 50 48 46" stroke="#90E0EF" stroke-width="0.8" fill="none" opacity="0.4"/>
 </svg>
