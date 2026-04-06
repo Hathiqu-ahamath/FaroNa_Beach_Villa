@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { getWhatsAppUrl, messages } from '../utils/whatsapp'
 
 export default function Navbar({ currentPage = 'home', setCurrentPage }) {
@@ -67,38 +67,36 @@ export default function Navbar({ currentPage = 'home', setCurrentPage }) {
       </nav>
 
       {/* Mobile Menu Overlay */}
-      {mobileMenuOpen && (
-        <div className="fixed inset-0 z-[100] md:hidden">
-          {/* Backdrop */}
-          <div 
-            className="absolute inset-0 bg-black/50" 
-            onClick={() => setMobileMenuOpen(false)}
-          />
-          {/* Menu */}
-          <div className="absolute top-0 left-0 w-72 h-full bg-[#FFFDF8] shadow-xl p-6">
-            <div className="flex justify-between items-center mb-8">
-              <span className="font-headline text-xl font-bold text-primary">FARONA</span>
-              <button 
-                onClick={() => setMobileMenuOpen(false)}
-                className="p-2"
+      <div className={`fixed inset-0 z-[100] md:hidden mobile-menu-overlay transition-opacity duration-300 ${mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+        {/* Backdrop */}
+        <div 
+          className="absolute inset-0 bg-black/50" 
+          onClick={() => setMobileMenuOpen(false)}
+        />
+        {/* Menu */}
+        <div className={`mobile-menu-slide p-6 ${mobileMenuOpen ? 'open' : ''}`}>
+          <div className="flex justify-between items-center mb-8">
+            <span className="font-headline text-xl font-bold text-primary">FARONA</span>
+            <button 
+              onClick={() => setMobileMenuOpen(false)}
+              className="p-2"
+            >
+              <span className="material-symbols-outlined text-primary">close</span>
+            </button>
+          </div>
+          <div className="flex flex-col gap-4">
+            {navLinks.map(link => (
+              <button
+                key={link.label}
+                onClick={() => handleNavClick(link)}
+                className="text-left py-2 text-lg font-medium text-on-surface-variant hover:text-primary transition-colors"
               >
-                <span className="material-symbols-outlined text-primary">close</span>
+                {link.label}
               </button>
-            </div>
-            <div className="flex flex-col gap-4">
-              {navLinks.map(link => (
-                <button
-                  key={link.label}
-                  onClick={() => handleNavClick(link)}
-                  className="text-left py-2 text-lg font-medium text-on-surface-variant hover:text-primary transition-colors"
-                >
-                  {link.label}
-                </button>
-              ))}
-            </div>
+            ))}
           </div>
         </div>
-      )}
+      </div>
     </header>
   )
 }

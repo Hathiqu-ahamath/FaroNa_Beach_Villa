@@ -6,7 +6,6 @@ export default function About() {
     { id: "ac", name: "Air conditioning", icon: "ac_unit" },
     { id: "shuttle", name: "Airport shuttle", icon: "flight" },
     { id: "wifi", name: "Free WiFi", icon: "wifi" },
-    { id: "beachfront", name: "Beachfront", icon: "beach_access" },
     { id: "family", name: "Family rooms", icon: "group" },
     { id: "parking", name: "Free parking", icon: "local_parking" },
   ]

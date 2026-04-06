@@ -75,7 +75,7 @@ export default function CTA() {
 
   return (
     <section id="booking" className="relative py-8 md:py-12 px-4 md:px-8 overflow-hidden">
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 min-h-[550px] md:min-h-[650px]">
         <img 
           alt="Aerial cinematic shot of the villa complex at night with soft warm architectural lighting against the deep blue night sea" 
           className="w-full h-full object-cover" 
@@ -83,7 +83,7 @@ export default function CTA() {
         />
       </div>
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-        <div className="bg-white/20 backdrop-blur-xl p-6 md:p-10 rounded-2xl md:rounded-[2.5rem] border border-white/10 shadow-2xl">
+        <div className="bg-white/20 backdrop-blur-xl p-6 md:p-10 rounded-2xl md:rounded-[2.5rem] border border-white/10 shadow-2xl min-w-[280px] md:min-w-[380px] inline-block">
           <h2 className="font-headline text-2xl md:text-3xl lg:text-4xl text-white mb-3 md:mb-6">Ready for your escape?</h2>
           <p className="text-white/90 text-xs md:text-sm mb-2 md:mb-3 max-w-xl mx-auto">
             <button onClick={goToPrevMonth} className="text-white hover:text-white/70 mr-2">◀</button>
