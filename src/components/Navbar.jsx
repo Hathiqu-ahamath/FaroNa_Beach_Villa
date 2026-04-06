@@ -38,17 +38,17 @@ export default function Navbar({ currentPage = 'home', setCurrentPage }) {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-surface-container-lowest/70 backdrop-blur-md">
-      <nav className="flex justify-between items-center px-6 py-4 w-full max-w-7xl mx-auto">
-        <div className="flex items-center gap-4">
+      <nav className="flex justify-between items-center px-4 py-3 w-full max-w-7xl mx-auto">
+        <div className="flex items-center gap-3">
           <button 
-            className="md:hidden p-2"
+            className="md:hidden p-1"
             onClick={() => setMobileMenuOpen(true)}
           >
-            <span className="material-symbols-outlined text-primary">menu</span>
+            <span className="material-symbols-outlined text-primary text-2xl">menu</span>
           </button>
           <button 
             onClick={() => scrollToSection('hero')}
-            className="font-headline text-xl md:text-2xl font-bold text-primary tracking-widest"
+            className="font-headline text-lg md:text-2xl font-bold text-primary tracking-wider"
           >
             FARONA
           </button>
