@@ -53,7 +53,7 @@ export default function About() {
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
                 <img 
-                  src="/Images/462804046.jpg"
+                  src="/Images/462797465.jpg"
                   alt="Breakfast"
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
