@@ -8,7 +8,7 @@ const defaultRoom = {
   size: "79 m²",
   beds: "2 Queen beds",
   view: "Sea View",
-  price: "$450",
+  price: "LKR 135,000",
   images: [
     "https://lh3.googleusercontent.com/aida-public/AB6AXuB2zWeFevvF5zNDYbyi7GzX7PYuujfGXs3hkUEEymKZsfJI-VdHsMNbCGq_4n-dBBZcDQuzbIkL8r2x5r5TnRj2fhb4lQx8wMTTnABR-nnDzscRWYaMkU7ouTXrs67Y1ePadT6r9JTDzDW6-3K89sq-bqf53pyHPZiI9mu4Y3YgB9esC3wMc1rmXtasrAmtIwVFAyXkiO_lcULha6MACIevod-0-YGGBs08ykmL5paOJKTl-ewgAwZDajQHh4k2DGRTZemZVL4ZNJE",
     "https://lh3.googleusercontent.com/aida-public/AB6AXuBkrq9MY7BMvq4DiODJ23pCLN21t4Z_8rREBrQklURA8TO8IIRNTNxbLNHtXechHilfNHdieuQsADxSVyI-ZUliytDHSGBTMpPQ3XuIwePbXWeQ8wFfKxwX8ZOZ-sxRtZn2mv4wJLlgcN_KXl04jBWXFSdU98TUW5Et6Y0UfW-liHtPgRpeHiXdoD7RP5nRnccF2_VPnj0Lbmj-RrMcQsuz0mI4L7zrq3xdpQfwQZjvFmiG3L5ISUXuJ9tRwcLfdmY_-7hLj7U6yiQ",
@@ -166,7 +166,6 @@ export default function RoomDetails({ selectedRoom, setCurrentPage, setSelectedR
             <span className="text-white/70 text-xs uppercase tracking-widest block mb-1">From</span>
             <div className="flex items-baseline gap-1 mb-2">
               <span className="font-headline text-4xl text-white">{roomData.price}</span>
-              <span className="text-white/70">/ night</span>
             </div>
             <p className="text-white/60 text-xs mb-5">Best price guaranteed</p>
             <a 
@@ -212,7 +211,6 @@ export default function RoomDetails({ selectedRoom, setCurrentPage, setSelectedR
           <div>
             <span className="text-xs text-secondary">From</span>
             <span className="font-headline text-xl text-primary">{roomData.price}</span>
-            <span className="text-xs text-secondary">/night</span>
           </div>
           <a 
             href={bookingUrl}
