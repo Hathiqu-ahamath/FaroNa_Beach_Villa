@@ -79,7 +79,7 @@ export default function CTA() {
         <img 
           alt="Aerial cinematic shot of the villa complex at night with soft warm architectural lighting against the deep blue night sea" 
           className="w-full h-full object-cover" 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuARBvcFT6W7frioIpp7xY9ee6WMBcxhI9D0ZqCte-veZHpmNwyvUBtQoegGegzsosbaVd9JSr-_Bnfv4ZsFaJf7G7pNOecLYVadsr25q0jw5fE8F8oYkTcGcH9FZuYt5HOjCf-s2yx9mbO4OtSGC1zjPFchxi06Fey140NnjgOY8qkiDdbyRHnmCGAm5YYDpafB10im8ghktwOv8lbf9c5M54o3njogGwa8eIWygEEkJCTU37TSqlDI3FkwhkhWMV1zEt6vsTrXOZ4" 
+          src="/Images/Night view 1.png" 
         />
       </div>
       <div className="relative z-10 max-w-4xl mx-auto text-center">

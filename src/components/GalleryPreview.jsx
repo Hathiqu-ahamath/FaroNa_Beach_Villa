@@ -17,12 +17,12 @@ const images = [
     cols: "col-span-1"
   },
   {
-    alt: "Beach",
-    src: "/Images/462803996.jpg",
+    alt: "Interior",
+    src: "/Images/462798664.jpg",
     cols: "col-span-1"
   },
   {
-    alt: "View",
+    alt: "Beach",
     src: "/Images/462804046.jpg",
     cols: "col-span-1"
   }

@@ -48,12 +48,12 @@ export default function About() {
             <div className="grid grid-cols-2 gap-2">
               <div className="space-y-2">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4MIERYMTy_8ZpqSPzh4fi6L5TiXX8Oo837Hm6m_6AiD7dW4ssDnMbaxZkXP0Th_4TVRUvOoV5cO7jUw2EZivr_CU5Zrps_wMPcucfnq3yPMpt4r9fZ60JMjHMzisWfYQDXk_oyZzb3YE5GiJ20J-NQcl-0WPfO1pl-c4o7BlGJBGPSEvi8sKyJIyTPhu1Gse-E6JuYXPqte1G6X_nU-hYaipAyZU2rMChs1HzoHQyl-6XOnF645f6LcdO-xqRR-EJvqLWNO9X7lo"
+                  src="/Images/462798664.jpg"
                   alt="Pool"
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2Ke6UmymhFQbL0PVWbg_80b5T03sgOPmPDUV1CqEdOsDQt09GDUHubabMMrdecTGENpf0IUWHaBHd7jtZ4nJOudNUi_WzJhLfx1GkOO9OQudCLkV8v0wrYnVH2tVIEd5PXvv0OLnq-qQv0OHVwTeR16GPtCbB9dZ_NNLwHc_yXb6YGBrzU-zkCizenSd0-dtp7v2rIbz5QgZZO-LAMvf3W9Toc7nbSN27_nt-HIx884rc8He2_LZ0DgOMO8kXJENmpXbyG7tnD9s"
+                  src="/Images/462804046.jpg"
                   alt="Breakfast"
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
@@ -65,7 +65,7 @@ export default function About() {
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRtUc-AgYqq_8jXiyu94cff5DuzDP4MV5PCQWjhrwidMgxZhv6GViyeBWdqdw2-UYHqW10d3EjaNlU28Gg-A8puwoNXZxxP0nMDXEQcJTgDOa1-FBdTA4KvRZ_Y1mZtNYR40258c7RIJxXJGJMNqpIenbie7cBNzyOrHBmu3RVHd4C32hJxXLwC3ybXMoa_MVredVX0XmftWMEG2Mavdol832gedIfPUIzecR7l3Qh62TMgHQ63UQ5AVFzRE5DZetK6XWPUjSFEhE"
+                  src="/Images/462803996.jpg"
                   alt="Yoga"
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
