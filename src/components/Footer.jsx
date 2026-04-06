@@ -75,12 +75,6 @@ export default function Footer({ setCurrentPage }) {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto mt-8 md:mt-16 pt-6 md:pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-2 md:gap-4">
-        <span className="font-body text-xs md:text-sm text-secondary">© 2024 FARONA Beach Villa. All rights reserved.</span>
-        <div className="flex gap-4 md:gap-6">
-          <span className="font-body text-[10px] md:text-xs text-secondary uppercase tracking-widest">Designed for Stillness</span>
-        </div>
-      </div>
     </footer>
   )
 }
