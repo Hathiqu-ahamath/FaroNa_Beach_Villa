@@ -34,7 +34,7 @@ export default function About() {
               </div>
               <div>
                 <p className="text-sm font-bold text-primary">Rated Excellent</p>
-                <p className="text-xs text-secondary">by 500+ happy guests</p>
+                <p className="text-xs text-secondary">by 100+ happy guests</p>
               </div>
             </div>
           </motion.div>
