@@ -17,8 +17,8 @@ const images = [
     cols: "col-span-1"
   },
   {
-    alt: "Interior",
-    src: "/Images/462798664.jpg",
+    alt: "Beach",
+    src: "/Images/462803996.jpg",
     cols: "col-span-1"
   },
   {
