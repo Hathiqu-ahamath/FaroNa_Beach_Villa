@@ -19,7 +19,6 @@ const galleryItems = [
   { src: "/Images/496549081.jpg", title: "Beach", height: "h-48" },
   { src: "/Images/496549133.jpg", title: "Interior", height: "h-64" },
   { src: "/Images/496592300.jpg", title: "Balcony", height: "h-56" },
-  { src: "/Images/496592642.jpg", title: "Room", height: "h-64" },
   { src: "/Images/496594461.jpg", title: "Bathroom", height: "h-56" },
   { src: "/Images/496594547.jpg", title: "Interior", height: "h-72" },
   { src: "/Images/Night view 1.png", title: "Night View", height: "h-64" },
