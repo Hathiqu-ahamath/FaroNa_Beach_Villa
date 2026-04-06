@@ -10,6 +10,8 @@ import CTA from './components/CTA'
 import Contact from './components/Contact'
 import About from './components/About'
 import Footer from './components/Footer'
+import PrivacyPolicy from './components/PrivacyPolicy'
+import TermsOfService from './components/TermsOfService'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home')
@@ -36,6 +38,10 @@ function App() {
         return <Gallery setCurrentPage={setCurrentPage} />
       case 'room-details':
         return <RoomDetails selectedRoom={selectedRoom} setCurrentPage={setCurrentPage} setSelectedRoom={setSelectedRoom} />
+      case 'privacy-policy':
+        return <PrivacyPolicy setCurrentPage={setCurrentPage} />
+      case 'terms-of-service':
+        return <TermsOfService setCurrentPage={setCurrentPage} />
       default:
         return (
           <>

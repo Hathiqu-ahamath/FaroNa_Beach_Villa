@@ -39,8 +39,8 @@ export default function Footer({ setCurrentPage }) {
         </div>
         <div className="flex flex-col gap-2 md:gap-3">
           <span className="font-bold text-primary text-sm mb-1 md:mb-2">Legal</span>
-          <a className="text-secondary hover:text-primary transition-all text-xs md:text-sm" href="#">Privacy Policy</a>
-          <a className="text-secondary hover:text-primary transition-all text-xs md:text-sm" href="#">Terms of Service</a>
+          <button onClick={() => setCurrentPage('privacy-policy')} className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Privacy Policy</button>
+          <button onClick={() => setCurrentPage('terms-of-service')} className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Terms of Service</button>
         </div>
         <div className="flex flex-col gap-3 md:gap-4">
           <span className="font-bold text-primary text-sm mb-1 md:mb-2">Contact Us</span>
