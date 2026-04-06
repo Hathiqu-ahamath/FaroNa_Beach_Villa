@@ -60,8 +60,8 @@ export default function About() {
               </div>
               <div className="space-y-2 pt-4 md:pt-8">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4UMRjYDyNrbM_jk9Sw6fX0ArCNTkS0c1fucaQ0zx4Dq4F1IumzH8DxGkqnLh7n_m74ht6XDxlfz3jKLOWY-nZPGU035ITAy9fwTWSxpmtOf56VUAMbbDhbLlgtS6RorvNPT7H28F3Po8tI0Yzo_tVDnSCpR8KmnJeKRC2cFaEyTyvkLMqKtkp1s1uw7jtZSw1XuJ_0nHPrdwp5y1CU_eGNyAHGD8fHGC7a95vD5ofhrtQd1ovgrJv_J1QJBou5Kl8T2I4f4dMQCY"
-                  alt="Beach"
+                  src="/Images/Night view 1.png"
+                  alt="Night view"
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
                 <img 

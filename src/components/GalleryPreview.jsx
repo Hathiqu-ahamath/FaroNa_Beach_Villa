@@ -2,28 +2,28 @@ import { motion } from 'framer-motion'
 
 const images = [
   {
-    alt: "Beach view",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuB4UMRjYDyNrbM_jk9Sw6fX0ArCNTkS0c1fucaQ0zx4Dq4F1IumzH8DxGkqnLh7n_m74ht6XDxlfz3jKLOWY-nZPGU035ITAy9fwTWSxpmtOf56VUAMbbDhbLlgtS6RorvNPT7H28F3Po8tI0Yzo_tVDnSCpR8KmnJeKRC2cFaEyTyvkLMqKtkp1s1uw7jtZSw1XuJ_0nHPrdwp5y1CU_eGNyAHGD8fHGC7a95vD5ofhrtQd1ovgrJv_J1QJBou5Kl8T2I4f4dMQCY",
+    alt: "Night view",
+    src: "/Images/Night view 1.png",
     cols: "col-span-1 md:col-span-2 md:row-span-2"
   },
   {
-    alt: "Breakfast",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuC2Ke6UmymhFQbL0PVWbg_80b5T03sgOPmPDUV1CqEdOsDQt09GDUHubabMMrdecTGENpf0IUWHaBHd7jtZ4nJOudNUi_WzJhLfx1GkOO9OQudCLkV8v0wrYnVH2tVIEd5PXvv0OLnq-qQv0OHVwTeR16GPtCbB9dZ_NNLwHc_yXb6YGBrzU-zkCizenSd0-dtp7v2rIbz5QgZZO-LAMvf3W9Toc7nbSN27_nt-HIx884rc8He2_LZ0DgOMO8kXJENmpXbyG7tnD9s",
+    alt: "Villa",
+    src: "/Images/Villa with Sea View.png",
     cols: "col-span-1"
   },
   {
-    alt: "Yoga",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuCRtUc-AgYqq_8jXiyu94cff5DuzDP4MV5PCQWjhrwidMgxZhv6GViyeBWdqdw2-UYHqW10d3EjaNlU28Gg-A8puwoNXZxxP0nMDXEQcJTgDOa1-FBdTA4KvRZ_Y1mZtNYR40258c7RIJxXJGJMNqpIenbie7cBNzyOrHBmu3RVHd4C32hJxXLwC3ybXMoa_MVredVX0XmftWMEG2Mavdol832gedIfPUIzecR7l3Qh62TMgHQ63UQ5AVFzRE5DZetK6XWPUjSFEhE",
+    alt: "Garden",
+    src: "/Images/Villa with Garden View.png",
     cols: "col-span-1"
   },
   {
-    alt: "Pool",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuD4MIERYMTy_8ZpqSPzh4fi6L5TiXX8Oo837Hm6m_6AiD7dW4ssDnMbaxZkXP0Th_4TVRUvOoV5cO7jUw2EZivr_CU5Zrps_wMPcucfnq3yPMpt4r9fZ60JMjHMzisWfYQDXk_oyZzb3YE5GiJ20J-NQcl-0WPfO1pl-c4o7BlGJBGPSEvi8sKyJIyTPhu1Gse-E6JuYXPqte1G6X_nU-hYaipAyZU2rMChs1HzoHQyl-6XOnF645f6LcdO-xqRR-EJvqLWNO9X7lo",
+    alt: "Beach",
+    src: "/Images/462803996.jpg",
     cols: "col-span-1"
   },
   {
-    alt: "Interior",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDKCwATr5bRPRBe-4RGSwNX2-tx5EbY7WfAy3MOnOM6HrPdcDb7Ixhzqz6SutFyVO_9McuF7gY2edSjOXU-5wsul12KFRCrYVtuyt312oQNXwhSt9aAABGWT7WqkJz31myWIwVyVM7jDEIEPZlftFqAZPk3bMAkEUoXdf9Wi-9bOA9jVTcL1ZKjdd3qYH9UWv06rpMm52InanPFwEcWbgmgplfjD0G29Cyja0wGI0VKvyvbWcVg2mXrjM52BmNWeOAihYTswtCILjs",
+    alt: "View",
+    src: "/Images/462804046.jpg",
     cols: "col-span-1"
   }
 ]
