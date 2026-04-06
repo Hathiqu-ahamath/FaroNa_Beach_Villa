@@ -10,10 +10,8 @@ const defaultRoom = {
   view: "Sea View",
   price: "LKR 8,000",
   images: [
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuB2zWeFevvF5zNDYbyi7GzX7PYuujfGXs3hkUEEymKZsfJI-VdHsMNbCGq_4n-dBBZcDQuzbIkL8r2x5r5TnRj2fhb4lQx8wMTTnABR-nnDzscRWYaMkU7ouTXrs67Y1ePadT6r9JTDzDW6-3K89sq-bqf53pyHPZiI9mu4Y3YgB9esC3wMc1rmXtasrAmtIwVFAyXkiO_lcULha6MACIevod-0-YGGBs08ykmL5paOJKTl-ewgAwZDajQHh4k2DGRTZemZVL4ZNJE",
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuBkrq9MY7BMvq4DiODJ23pCLN21t4Z_8rREBrQklURA8TO8IIRNTNxbLNHtXechHilfNHdieuQsADxSVyI-ZUliytDHSGBTMpPQ3XuIwePbXWeQ8wFfKxwX8ZOZ-sxRtZn2mv4wJLlgcN_KXl04jBWXFSdU98TUW5Et6Y0UfW-liHtPgRpeHiXdoD7RP5nRnccF2_VPnj0Lbmj-RrMcQsuz0mI4L7zrq3xdpQfwQZjvFmiG3L5ISUXuJ9tRwcLfdmY_-7hLj7U6yiQ",
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuCW8Ua-tlMdLcnOZ2llCcEryqSeY7BpiG607xdhoajr-CuoLsEa5XJHdPi_foeILNXITk-6CVExDbMsrn0OQxLUe2fQ3tdYFrWIn6ZiRpYU_j66YxcARiwAeXLgmjrC7RqZSZMSkWdMw6Dk6aFJ5Mu2-CdBUqdS3NafLm3QBFk14tXlTrYokJlYeqOOTaisnM-UnkQj3XsqNAAGT-Ek6Rd8irzL1Cc0JMgWFTCZOTGwzTnLe8HjwYnj3tzOsi1jEm5Lcp3ffeqw8ZI",
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuD4MIERYMTy_8ZpqSPzh4fi6L5TiXX8Oo837Hm6m_6AiD7dW4ssDnMbaxZkXP0Th_4TVRUvOoV5cO7jUw2EZivr_CU5Zrps_wMPcucfnq3yPMpt4r9fZ60JMjHMzisWfYQDXk_oyZzb3YE5GiJ20J-NQcl-0WPfO1pl-c4o7BlGJBGPSEvi8sKyJIyTPhu1Gse-E6JuYXPqte1G6X_nU-hYaipAyZU2rMChs1HzoHQyl-6XOnF645f6LcdO-xqRR-EJvqLWNO9X7lo"
+    "/Images/Villa with Sea View.png",
+    "/Images/Villa with Garden View.png"
   ],
   facilities: [
     { id: "breakfast", name: "Breakfast", icon: "restaurant" },
