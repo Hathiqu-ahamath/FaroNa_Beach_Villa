@@ -48,7 +48,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-2">
               <div className="space-y-2">
                 <img 
-                  src="/Images/462798664.jpg"
+                  src="/Images/Night view 2.png"
                   alt="Pool"
                   className="w-full h-32 md:h-48 object-cover rounded-lg"
                 />
