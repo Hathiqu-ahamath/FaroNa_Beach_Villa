@@ -121,7 +121,7 @@ export default function Accommodations({ setCurrentPage, setSelectedRoom }) {
             <div className="h-48 md:h-80 overflow-hidden">
               <img 
                 alt={room.title} 
-                className="w-full h-full object-contain group-hover:scale-105 md:hover:scale-110 transition-transform duration-700 md:duration-1000" 
+                className="w-full h-full object-cover group-hover:scale-105 md:hover:scale-110 transition-transform duration-700 md:duration-1000" 
                 src={room.image} 
               />
             </div>
