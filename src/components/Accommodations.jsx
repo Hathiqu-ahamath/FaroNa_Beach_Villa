@@ -11,7 +11,7 @@ const rooms = [
     size: "79 m²",
     beds: "2 Queen beds",
     view: "Sea View",
-    price: "LKR 135,000",
+    price: "LKR 8,000",
     description: "Experience the ultimate coastal retreat where the horizon meets your living space. Our signature villa offers an immersive maritime experience with curated artisanal furnishings.",
     images: [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuB2zWeFevvF5zNDYbyi7GzX7PYuujfGXs3hkUEEymKZsfJI-VdHsMNbCGq_4n-dBBZcDQuzbIkL8r2x5r5TnRj2fhb4lQx8wMTTnABR-nnDzscRWYaMkU7ouTXrs67Y1ePadT6r9JTDzDW6-3K89sq-bqf53pyHPZiI9mu4Y3YgB9esC3wMc1rmXtasrAmtIwVFAyXkiO_lcULha6MACIevod-0-YGGBs08ykmL5paOJKTl-ewgAwZDajQHh4k2DGRTZemZVL4ZNJE",
@@ -54,7 +54,7 @@ const rooms = [
     size: "79 m²",
     beds: "1 Sofa bed & 1 Queen bed",
     view: "Garden View",
-    price: "LKR 126,000",
+    price: "LKR 8,000",
     description: "Nestled amidst lush tropical gardens, this villa offers a serene retreat surrounded by nature. Wake up to birdsong and enjoy the peaceful atmosphere of our garden sanctuary.",
     images: [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBkrq9MY7BMvq4DiODJ23pCLN21t4Z_8rREBrQklURA8TO8IIRNTNxbLNHtXechHilfNHdieuQsADxSVyI-ZUliytDHSGBTMpPQ3XuIwePbXWeQ8wFfKxwX8ZOZ-sxRtZn2mv4wJLlgcN_KXl04jBWXFSdU98TUW5Et6Y0UfW-liHtPgRpeHiXdoD7RP5nRnccF2_VPnj0Lbmj-RrMcQsuz0mI4L7zrq3xdpQfwQZjvFmiG3L5ISUXuJ9tRwcLfdmY_-7hLj7U6yiQ",
