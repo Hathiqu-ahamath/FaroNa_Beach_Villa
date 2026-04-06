@@ -9,6 +9,8 @@ export default function Footer({ setCurrentPage }) {
     }, 100)
   }
 
+  const WhatsAppUrl = "https://wa.me/94771234567?text=Hi%20Farona%20Beach%20Villa,%20I'm%20interested%20in%20booking!"
+
   return (
     <footer id="location" className="bg-surface-container-low w-full py-8 md:py-12 px-6 md:px-8">
       <div className="flex flex-col md:flex-row justify-between items-start gap-6 md:gap-8 max-w-7xl mx-auto">
@@ -41,15 +43,15 @@ export default function Footer({ setCurrentPage }) {
           <a className="text-secondary hover:text-primary transition-all text-xs md:text-sm" href="#">Terms of Service</a>
         </div>
         <div className="flex flex-col gap-3 md:gap-4">
-          <span className="font-bold text-primary text-sm mb-1 md:mb-2">Newsletter</span>
+          <span className="font-bold text-primary text-sm mb-1 md:mb-2">Contact Us</span>
           <div className="flex bg-surface-container-lowest rounded-full p-1 shadow-sm overflow-hidden">
-            <input className="bg-transparent border-none focus:ring-0 px-3 md:px-4 text-xs md:text-sm w-32 md:w-48" placeholder="Your email" type="email"/>
-            <button className="bg-primary text-white p-1.5 md:p-2 rounded-full material-symbols-outlined text-sm">arrow_forward</button>
+            <input className="bg-transparent border-none focus:ring-0 px-3 md:px-4 text-xs md:text-sm w-32 md:w-48" placeholder="Your message" type="text"/>
+            <a href={WhatsAppUrl} target="_blank" rel="noopener noreferrer" className="bg-primary text-white p-1.5 md:p-2 rounded-full material-symbols-outlined text-sm">arrow_forward</a>
           </div>
           <div className="flex gap-3 md:gap-4 mt-1 md:mt-2">
             <span className="material-symbols-outlined text-primary cursor-pointer text-sm md:text-base">social_leaderboard</span>
             <span className="material-symbols-outlined text-primary cursor-pointer text-sm md:text-base">photo_camera</span>
-            <span className="material-symbols-outlined text-primary cursor-pointer text-sm md:text-base">alternate_email</span>
+            <a href={WhatsAppUrl} target="_blank" rel="noopener noreferrer" className="material-symbols-outlined text-primary cursor-pointer text-sm md:text-base">alternate_email</a>
           </div>
         </div>
       </div>
