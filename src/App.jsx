@@ -24,7 +24,7 @@ function App() {
       case 'home':
         return (
           <>
-            <Hero />
+            <Hero setCurrentPage={setCurrentPage} />
             <About />
             <Accommodations setCurrentPage={setCurrentPage} setSelectedRoom={setSelectedRoom} />
             <GalleryPreview setCurrentPage={setCurrentPage} />
@@ -39,7 +39,7 @@ function App() {
       default:
         return (
           <>
-            <Hero />
+            <Hero setCurrentPage={setCurrentPage} />
             <About />
             <Accommodations setCurrentPage={setCurrentPage} setSelectedRoom={setSelectedRoom} />
             <GalleryPreview setCurrentPage={setCurrentPage} />

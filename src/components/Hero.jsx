@@ -1,7 +1,14 @@
 import { getWhatsAppUrl, messages } from '../utils/whatsapp'
 import { motion } from 'framer-motion'
 
-export default function Hero() {
+export default function Hero({ setCurrentPage }) {
+  const scrollToAbout = () => {
+    setCurrentPage('home')
+    setTimeout(() => {
+      document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
+    }, 100)
+  }
+  
   return (
     <section id="hero" className="relative h-screen w-full flex items-center md:justify-start overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -35,14 +42,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="flex gap-4 justify-start"
         >
-          <a 
-            href={getWhatsAppUrl(messages.exploreVillas)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button 
+            onClick={scrollToAbout}
             className="bg-primary text-white text-sm md:text-base px-6 md:px-10 py-2.5 md:py-4 rounded-full font-bold shadow-xl hover:scale-95 transition-transform"
           >
             Explore Villas
-          </a>
+          </button>
         </motion.div>
       </div>
     </section>
