@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1VQxO28sVv7OTymNitQ6pPnTPv6hAbFm8HekBZudDYBo/export?format=csv"
+const GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSenHVmgu2QGwFLc30-rBjgath8lBp7qMO752AG3zs64n4pQR1QZehyhSRgxDkhGQRffdx5VyfsxB4P/pub?output=csv"
 
 export default function CTA() {
   const [reservedDates, setReservedDates] = useState([])
@@ -14,13 +14,14 @@ export default function CTA() {
         const lines = csv.trim().split('\n')
         const dates = []
         for (let i = 1; i < lines.length; i++) {
-          const [dateStr] = lines[i].split(',')
+          const parts = lines[i].split(',')
+          const dateStr = parts[1] ? parts[1].trim() : ''
           if (dateStr) {
-            const parts = dateStr.trim().split('/')
-            if (parts.length === 3) {
-              const day = parseInt(parts[0])
-              const month = parseInt(parts[1]) - 1
-              const year = parseInt(parts[2])
+            const dateParts = dateStr.split('/')
+            if (dateParts.length === 3) {
+              const month = parseInt(dateParts[0]) - 1
+              const day = parseInt(dateParts[1])
+              const year = parseInt(dateParts[2])
               const date = new Date(year, month, day)
               dates.push({ month: date.getMonth(), day: date.getDate(), year: date.getFullYear() })
             }
