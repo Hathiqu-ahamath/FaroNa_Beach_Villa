@@ -15,7 +15,7 @@ export default function TermsOfService({ setCurrentPage }) {
         </div>
         
         <div className="space-y-6 text-secondary text-sm md:text-base leading-relaxed">
-          <p>Welcome to FARONA Beach Villa. By booking with us, you agree to the following terms and conditions.</p>
+          <p>Welcome to FaroNa Beach Villa. By booking with us, you agree to the following terms and conditions.</p>
           
           <h2 className="font-bold text-primary text-lg">Booking & Reservations</h2>
           <p>All bookings are confirmed through WhatsApp. Please provide your expected arrival time when booking. Check-in is available 24 hours.</p>
@@ -45,7 +45,7 @@ export default function TermsOfService({ setCurrentPage }) {
           <p>Cancellation and prepayment policies vary according to accommodation type. Please contact us for details.</p>
           
           <h2 className="font-bold text-primary text-lg">Special Requests</h2>
-          <p>FARONA Beach Villa takes special requests. Please add your requests in the next step when booking.</p>
+          <p>FaroNa Beach Villa takes special requests. Please add your requests in the next step when booking.</p>
           
           <p className="text-xs text-gray-400 mt-8">Last updated: April 2026</p>
         </div>

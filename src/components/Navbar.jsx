@@ -50,7 +50,7 @@ export default function Navbar({ currentPage = 'home', setCurrentPage }) {
             onClick={() => scrollToSection('hero')}
             className="font-headline text-lg md:text-2xl font-bold text-primary tracking-wider"
           >
-            FARONA
+            FaroNa
           </button>
         </div>
         <div className="hidden md:flex gap-8 items-center">
@@ -76,7 +76,7 @@ export default function Navbar({ currentPage = 'home', setCurrentPage }) {
         {/* Menu */}
         <div className={`mobile-menu-slide p-6 ${mobileMenuOpen ? 'open' : ''}`}>
           <div className="flex justify-between items-center mb-8">
-            <span className="font-headline text-xl font-bold text-primary">FARONA</span>
+            <span className="font-headline text-xl font-bold text-primary">FaroNa</span>
             <button 
               onClick={() => setMobileMenuOpen(false)}
               className="p-2"

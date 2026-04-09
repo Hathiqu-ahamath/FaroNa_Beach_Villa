@@ -15,7 +15,7 @@ export default function PrivacyPolicy({ setCurrentPage }) {
         </div>
         
         <div className="space-y-6 text-secondary text-sm md:text-base leading-relaxed">
-          <p>At FARONA Beach Villa, we value your privacy and are committed to protecting your personal information.</p>
+          <p>At FaroNa Beach Villa, we value your privacy and are committed to protecting your personal information.</p>
           
           <h2 className="font-bold text-primary text-lg">Information We Collect</h2>
           <p>We collect information you provide directly to us, including your name, email address, phone number, and booking details when you make a reservation through WhatsApp.</p>

@@ -24,7 +24,7 @@ export default function Footer({ setCurrentPage }) {
     <footer id="location" className="bg-surface-container-low w-full py-8 md:py-12 px-6 md:px-8">
       <div className="flex flex-col md:flex-row justify-between items-start gap-6 md:gap-8 max-w-7xl mx-auto">
         <div className="space-y-4 md:space-y-6">
-          <div className="font-headline text-lg md:text-xl text-primary">FARONA</div>
+          <div className="font-headline text-lg md:text-xl text-primary">FaroNa</div>
           <p className="font-body text-xs md:text-sm text-secondary max-w-xs leading-relaxed">
             A collection of luxury villas designed for the modern traveler seeking quietude and architectural beauty on the water's edge.
           </p>
