@@ -26,8 +26,8 @@ export default function Hero({ setCurrentPage }) {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="font-headline text-[2.5rem] md:text-6xl lg:text-7xl text-primary leading-tight font-bold mb-3 md:mb-6"
         >
-          <span className="block md:inline text-[3rem] md:text-6xl lg:text-7xl">FaroNa Beach</span>
-          <span className="block md:inline mb-2 md:mb-0 ml-0 md:ml-2 text-[2rem] md:text-6xl lg:text-7xl">Villa</span>
+          <span className="block md:inline text-[3rem] md:text-6xl lg:text-7xl">FaroNa</span>
+          <span className="block md:inline mb-2 md:mb-0 ml-0 md:ml-2 text-[2rem] md:text-6xl lg:text-7xl">Beach Villa</span>
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 30 }}
