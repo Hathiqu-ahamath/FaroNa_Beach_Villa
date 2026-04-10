@@ -5,13 +5,13 @@ import { motion } from 'framer-motion'
 const rooms = [
   {
     id: "sea-view",
-    title: "Villa with Sea View",
+    title: "Super Deluxe Room",
     image: "/Images/Villa with Sea View.png",
     subtitle: "Entire villa",
     size: "79 m²",
-    beds: "2 Queen beds",
-    view: "Sea View",
-    price: "LKR 8,000",
+    beds: "2 King beds",
+    view: "Garden Sea View",
+    price: "LKR 17,500",
     description: "Experience the ultimate coastal retreat where the horizon meets your living space. Our signature villa offers an immersive maritime experience with curated artisanal furnishings.",
     images: [
       "/Images/Villa with Sea View.png",
@@ -46,13 +46,13 @@ const rooms = [
   },
   {
     id: "garden-view",
-    title: "Villa with Garden View",
+    title: "Deluxe Room",
     image: "/Images/Villa with Garden View.png",
     subtitle: "Entire villa",
     size: "79 m²",
-    beds: "1 Sofa bed & 1 Queen bed",
-    view: "Garden View",
-    price: "LKR 8,000",
+    beds: "1 Sofa bed & 1 King bed",
+    view: "Garden Sea View",
+    price: "LKR 12,000",
     description: "Nestled amidst lush tropical gardens, this villa offers a serene retreat surrounded by nature. Wake up to birdsong and enjoy the peaceful atmosphere of our garden sanctuary.",
     images: [
       "/Images/Villa with Garden View.png",
@@ -133,7 +133,7 @@ export default function Accommodations({ setCurrentPage, setSelectedRoom }) {
               <p className="text-xs text-secondary mb-3">{room.size} • {room.beds}</p>
               <div className="flex flex-wrap gap-2 md:gap-4 text-xs md:text-sm text-secondary font-medium mb-4 md:mb-6">
                 <span className="flex items-center gap-1 md:gap-2">
-                  <span className="material-symbols-outlined text-xs md:text-sm">{room.view === 'Sea View' ? 'waves' : 'park'}</span> {room.view}
+                  <span className="material-symbols-outlined text-xs md:text-sm">waves</span> {room.view}
                 </span>
               </div>
               <div className="flex items-center justify-between">

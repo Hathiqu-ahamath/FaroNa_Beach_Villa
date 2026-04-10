@@ -29,7 +29,7 @@ export default function Footer({ setCurrentPage }) {
             A collection of luxury villas designed for the modern traveler seeking quietude and architectural beauty on the water's edge.
           </p>
           <a 
-            href="https://www.google.com/maps/search/294+E+1+Razeek+Fareed+Road+Addalaichanai+Ampara+Sri+Lanka" 
+            href="https://www.google.com/maps/place/FaroNa+Beach+Villa/@7.2549838,81.8638311,9z/data=!4m13!1m2!2m1!1s294+E+1+Razeek+Fareed+Road+Addalaichanai+Ampara+Sri+Lanka!3m9!1s0x3ae51333cc7baec3:0x6c79f718d7a82243!5m2!4m1!1i2!8m2!3d7.2549842!4d81.8638995!15sCjkyOTQgRSAxIFJhemVlayBGYXJlZWQgUm9hZCBBZGRhbGFpY2hhbmFpIEFtcGFyYSBTcmkgTGFua2FaOyI5Mjk0IGUgMSByYXplZWsgZmFyZWVkIHJvYWQgYWRkYWxhaWNoYW5haSBhbXBhcmEgc3JpIGxhbmthkgEFdmlsbGGaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUndhRFJNUTFwQkVBReABAPoBBQiUARAT!16s%2Fg%2F11khr0k8k7?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" 
             target="_blank" 
             rel="noopener noreferrer"
             className="font-body text-xs md:text-sm text-secondary hover:text-primary max-w-xs block"
@@ -43,7 +43,7 @@ export default function Footer({ setCurrentPage }) {
           <span className="font-bold text-primary text-sm mb-1 md:mb-2">Explore</span>
           <button onClick={() => scrollToSection('accommodations')} className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Rooms</button>
           <button onClick={() => setCurrentPage('gallery')} className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Gallery</button>
-          <a href="https://www.google.com/maps/search/294+E+1+Razeek+Fareed+Road+Addalaichanai+Ampara+Sri+Lanka" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Location</a>
+          <a href="https://www.google.com/maps/place/FaroNa+Beach+Villa/@7.2549838,81.8638311,9z/data=!4m13!1m2!2m1!1s294+E+1+Razeek+Fareed+Road+Addalaichanai+Ampara+Sri+Lanka!3m9!1s0x3ae51333cc7baec3:0x6c79f718d7a82243!5m2!4m1!1i2!8m2!3d7.2549842!4d81.8638995!15sCjkyOTQgRSAxIFJhemVlayBGYXJlZWQgUm9hZCBBZGRhbGFpY2hhbmFpIEFtcGFyYSBTcmkgTGFua2FaOyI5Mjk0IGUgMSByYXplZWsgZmFyZWVkIHJvYWQgYWRkYWxhaWNoYW5haSBhbXBhcmEgc3JpIGxhbmthkgEFdmlsbGGaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUndhRFJNUTFwQkVBReABAPoBBQiUARAT!16s%2Fg%2F11khr0k8k7?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Location</a>
           <button className="text-secondary hover:text-primary transition-all text-xs md:text-sm text-left">Contact</button>
         </div>
         <div className="flex flex-col gap-2 md:gap-3">

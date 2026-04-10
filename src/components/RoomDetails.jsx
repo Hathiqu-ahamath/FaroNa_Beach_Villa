@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 import { getWhatsAppUrl, messages } from '../utils/whatsapp'
 
 const defaultRoom = {
-  name: "Villa with Sea View",
+  name: "Villa with Garden Sea View",
   subtitle: "Entire villa",
   description: "Experience the ultimate coastal retreat where the horizon meets your living space. Our signature villa offers an immersive maritime experience with curated artisanal furnishings.",
   size: "79 m²",
-  beds: "2 Queen beds",
-  view: "Sea View",
+  beds: "2 King beds",
+  view: "Garden Sea View",
   price: "LKR 8,000",
   images: [
     "/Images/Villa with Sea View.png",
@@ -143,7 +143,7 @@ export default function RoomDetails({ selectedRoom, setCurrentPage, setSelectedR
                 </div>
                 <div>
                   <span className="text-[10px] text-secondary block uppercase tracking-wider">Bedding</span>
-                  <span className="font-headline text-lg text-primary">2 Queen</span>
+                  <span className="font-headline text-lg text-primary">{roomData.beds}</span>
                 </div>
               </div>
               <div className="bg-surface-container-lowest px-4 py-3 rounded-xl flex items-center gap-3">
@@ -152,7 +152,7 @@ export default function RoomDetails({ selectedRoom, setCurrentPage, setSelectedR
                 </div>
                 <div>
                   <span className="text-[10px] text-secondary block uppercase tracking-wider">View</span>
-                  <span className="font-headline text-lg text-primary">Sea View</span>
+                  <span className="font-headline text-lg text-primary">{roomData.view}</span>
                 </div>
               </div>
             </div>
