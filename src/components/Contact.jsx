@@ -34,7 +34,7 @@ export default function Contact() {
           className="flex justify-center items-center gap-6 mb-8 md:mb-12"
         >
           <a 
-            href="https://www.google.com/maps/search/294+E+1+Razeek+Fareed+Road+Addalaichanai+Ampara+Sri+Lanka" 
+            href="https://www.google.com/maps/place/FaroNa+Beach+Villa/@7.2549895,81.8590286,17z/data=!3m1!4b1!4m13!1m2!2m1!1s294+E+1+Razeek+Fareed+Road+Addalaichanai+Ampara+Sri+Lanka!3m9!1s0x3ae51333cc7baec3:0x6c79f718d7a82243!5m2!4m1!1i2!8m2!3d7.2549842!4d81.8638995!15sCjkyOTQgRSAxIFJhemVlayBGYXJlZWQgUm9hZCBBZGRhbGFpY2hhbmFpIEFtcGFyYSBTcmkgTGFua2FaOyI5Mjk0IGUgMSByYXplZWsgZmFyZWVkIHJvYWQgYWRkYWxhaWNoYW5haSBhbXBhcmEgc3JpIGxhbmthkgEFdmlsbGGaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUndhRFJNUTFwQkVBReABAPoBBQiUARAT!16s%2Fg%2F11khr0k8k7?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-secondary hover:text-primary transition-colors"

@@ -20,7 +20,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="font-headline text-2xl md:text-5xl text-primary mb-4 md:mb-6">Welcome to Farona</h2>
+            <h2 className="font-headline text-2xl md:text-5xl text-primary mb-4 md:mb-6">Welcome to FaroNa</h2>
             <p className="font-body text-secondary text-sm md:text-base leading-relaxed mb-4">
               Nestled along pristine coastline, Farona Beach Villa offers an unparalleled escape where luxury meets nature. Our meticulously designed villas provide the perfect sanctuary for those seeking tranquility and elegance.
             </p>
